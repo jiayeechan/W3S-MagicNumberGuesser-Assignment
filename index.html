@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Magic Number Guesser</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item-1">
+        <header>
+          <img
+            id="magician-pic"
+            src="./magician-transparent.webp"
+            alt="Picture of an animated magician"
+          />
+          <video
+            id="confetti-video"
+            src="./vecteezy_colorful-confetti-celebration-falling-on-white-background_9713988_328.mp4"
+            autoplay="true"
+          ></video>
+          <h1 id="test">I can guess your number</h1>
+          <p>A game of numbers</p>
+        </header>
+      </div>
+      <div class="item-2"></div>
+      <div class="item-3">
+        <p>
+          Think of a number between 0 and 10. When you're ready, select the
+          'Start' button.
+        </p>
+        <button id="myBtn">Start</button>
+      </div>
+      <div class="item-4">
+        <div id="outcome">
+          <p>Is this your number?</p>
+          <p id="results"></p>
+          <button id="yes">Yes</button>
+          <button id="higherBtn">No - higher</button>
+          <button id="lowerBtn">No - lower</button>
+        </div>
+      </div>
+      <div class="item-5"></div>
+      <div class="item-6"></div>
+    </div>
+  </body>
+</html>
